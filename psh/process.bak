@@ -1,0 +1,152 @@
+void process(int sig)
+{
+  string command;
+
+  // pipe(background_pipe);
+
+  // int flags = fcntl(background_pipe[READ], F_GETFL, 0);
+  // fcntl(background_pipe[READ], F_SETFL, flags | O_NONBLOCK);
+
+  // flags = fcntl(background_pipe[WRITE], F_GETFL, 0);
+  // fcntl(background_pipe[WRITE], F_SETFL, flags | O_NONBLOCK);
+
+  // flags = fcntl(STDIN_FILENO, F_GETFL, 0);
+  // fcntl(STDIN_FILENO, F_SETFL, flags | O_NONBLOCK);
+
+  command_history_pointer = -1;
+
+  bool flag = true;
+
+  std::cout << unitbuf;
+
+  // stringstream ss;
+
+  // int clean_count = 0;
+
+  while(true)
+  {
+    // if(flag)
+    // {
+    // flag = false;
+    string disp = cwd + "@" + user + " $> ";
+    cout << disp;
+    fflush(stdout);
+    // cout << "\r" << disp << command;
+    // }
+
+    // char a = _getch();
+    // if(a == 27)
+    // {
+    //   char b = _getch();
+    //   if(b == 91)
+    //   {
+    //     char c = _getch();
+
+    //     switch(c)
+    //     {
+    //       case 65:
+    //       command = move_pointer(-1);
+    //       flag = true;
+    //       // cout << command;
+    //       break;
+    //     }
+    //   }
+    // } else if(a == 127) {
+
+    // } else if(a == 10) {
+    //   command_history.push_back(command);
+    //   cout << command;
+    //   command = "";
+    //   flag = true;
+    //   cout << endl;
+    // } else {
+    //   command += a;
+    //   cout << a;
+    // }
+
+    // int count;
+    // char buffer[1024];
+    // cout << "\r";
+    // for(int i = 0; i < disp.size() + clean_count; i++)
+    // {
+    //   cout << " ";
+    // }
+    // if(flag)
+    // {
+    // cout << "\r" << cwd << "@" << user << " $> " << ss.str();
+    // if(flag)
+    // {
+    //   flag = false;
+    //   command = "";
+    // }
+    // flag = false;
+    // fflush(NULL);
+    // }
+
+    // char a = _getch();
+
+    // if(a == 27)
+    // {
+    //   char b = _getch();
+    //   char c = _getch();
+    //   if(b == 91)
+    //   {
+    //     int clean_count = command.size();
+
+    //     switch(c)
+    //     {
+    //       case 65:
+    //       command = move_pointer(-1);
+    //       ss.clear();
+    //       ss.str(command);
+    //       break;
+    //       case 66:
+    //       command = move_pointer(1);
+    //       ss.clear();
+    //       ss.str(command);
+    //       break;
+    //       default:
+    //       cout << int(c);
+    //       break;
+    //     }
+    //   }
+    // } else if(a == 10)
+    // {
+    //   flag = true;
+    //   cout << endl;
+    //   parse(command);
+    //   command_history.push_back(command);
+    //   command_history_pointer = command_history.size() - 1;
+    //   ss.str( std::string() );
+    //   ss.clear();
+    // } else if(a == 127) {
+    //   string b = ss.str();
+    //   if(b.size() >= 1)
+    //   {
+    //     cout << "\b ";
+    //     b.erase(b.end()-1, b.end());
+    //     ss.clear();
+    //     ss.str(b);
+    //   }
+    // } else {
+    //   command += a;
+    //   ss << a;
+    // }
+
+    // while(read(STDIN_FILENO, buffer, 1024) < 0)
+    // {
+    //   count = read(background_pipe[READ], buffer, 1024);
+
+    //   if(count >= 0) {
+    //     cout << endl;
+    //     cout << buffer << endl;
+
+    //     cout << cwd << "@" << user << " $> ";
+    //     fflush(NULL);
+    //   }
+    // }
+
+    getline(cin, command);
+    parse(command);
+  }
+}

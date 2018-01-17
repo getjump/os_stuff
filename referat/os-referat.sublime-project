@@ -1,0 +1,29 @@
+{
+  "folders":
+  [
+    {
+      "path": "."
+    }
+  ],
+
+  "settings":
+  {
+        "TEXroot": "report.tex",
+        "builder": "script",
+        "builder_settings":
+        {
+            "osx": {
+                "script_commands": [
+                    "mkdir ./build",
+                    "pdflatex  -synctex=1 -interaction=nonstopmode -recorder -output-directory=./build $file_base_name",
+                    "bibtex ./build/$file_base_name",
+                    "pdflatex  -synctex=1 -interaction=nonstopmode -recorder -output-directory=./build $file_base_name",
+                    "pdflatex  -synctex=1 -interaction=nonstopmode -recorder -output-directory=./build $file_base_name",
+                    "ln -f ./build/$file_base_name.pdf ./",
+                    "ln -s -f ./build/$file_base_name.synctex.gz ./",
+                    "open -a Skim.app ./$file_base_name.pdf"
+                ]
+            }
+        }
+  }
+}

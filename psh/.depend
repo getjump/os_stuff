@@ -1,0 +1,2 @@
+shell.o: shell.cpp ls.h cd.h env.h pipe_debug.h
+read_line.o: read_line.cpp

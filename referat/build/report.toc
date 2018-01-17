@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}\IeC {\CYRYA }\IeC {\cyrd }\IeC {\cyrr }\IeC {\cyro }}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}ASLR}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } \IeC {\cyrd }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrp }\IeC {\cyra }}{1}{section.2}
+\contentsline {section}{\numberline {3}Security Framework}{2}{section.3}
+\contentsline {section}{\numberline {4}\IeC {\CYRS }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyri } \IeC {\cyrb }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyro }\IeC {\cyrp }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }}{2}{section.4}
+\contentsline {section}{\numberline {5}Keychain}{2}{section.5}
+\contentsline {section}{\numberline {6}\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya }}{2}{section.6}
+\contentsline {section}{\numberline {7}Sandbox}{3}{section.7}
+\contentsline {subsection}{\numberline {7.1}Mandatory access controls}{3}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Entitlements}{3}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}\IeC {\CYRP }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrz }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya }}{4}{subsection.7.3}
+\contentsline {section}{\numberline {8}\IeC {\CYRF }\IeC {\cyra }\IeC {\cyrishrt }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrery }\IeC {\cyrishrt } \IeC {\CYRK }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrn }}{4}{section.8}
+\contentsline {section}{\numberline {9}System Integrity Protection}{4}{section.9}
+\contentsline {section}{\numberline {10}Summary}{4}{section.10}
+\contentsline {section}{\IeC {\CYRS }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyro }\IeC {\cyrk } \IeC {\cyrl }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyrery }}{5}{section.10}

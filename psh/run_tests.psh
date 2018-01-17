@@ -1,0 +1,10 @@
+echo "---------Task 1: default utils ls, pwd, cd---------"
+run tests/1.psh
+echo "---------Task 2: pipes---------"
+run tests/2.psh
+echo "---------Task 3: background (output pid)---------"
+run tests/3.psh
+echo "---------Task 4: Env and local vars---------"
+run tests/4.psh
+echo "---------Task 5: something like if---------"
+run tests/5.psh

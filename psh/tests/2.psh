@@ -1,0 +1,2 @@
+ls | grep sh | cat
+ls | tr a-z A-Z

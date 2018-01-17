@@ -1,0 +1,2 @@
+ls | grep h
+ls | grep sh | cat

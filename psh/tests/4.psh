@@ -1,0 +1,12 @@
+TESTVAR=test
+echo "Local var"
+echo $TESTVAR
+echo "Exporting"
+export TESTVAR
+echo "Run second"
+test
+echo "Global var"
+echo $TESTVAR
+echo "Substitution"
+cat {$HOME}/index.js | wc
+exit

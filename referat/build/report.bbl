@@ -1,0 +1,68 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{SnowLeopardSecurityGuide}
+\selectlanguageifdefined{english}
+\BibEmph{Apple}. Mac OS X Security Configuration. ---
+\newblock 2010. ---
+\newblock URL:
+  \BibUrl{http://www.apple.com/support/security/guides/docs/SnowLeopard_Security_Config_v10.6.pdf}.
+
+\bibitem{garijo2015mac}
+\selectlanguageifdefined{english}
+\BibEmph{Garijo~Joaquin~Moreno}. Mac OS X Forensics. ---
+\newblock 2015. ---
+\newblock URL:
+  \BibUrl{https://reverse.put.as/wp-content/uploads/2015/11/RHUL-MA-2015-8.pdf}.
+
+\bibitem{symantec2016threat}
+\selectlanguageifdefined{english}
+\BibEmph{Symantec}. Apple Threat Land. ---
+\newblock 2016. ---
+\newblock URL:
+  \BibUrl{http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/apple-threat-landscape.pdf}.
+
+\bibitem{apple2015captain}
+\selectlanguageifdefined{english}
+\BibEmph{Apple}. El Captain Technologies Overview. ---
+\newblock 2015. ---
+\newblock URL:
+  \BibUrl{https://www.apple.com/osx/all-features/pdf/osx_elcapitan_core_technologies_overview.pdf}.
+
+\bibitem{applesecurity}
+\selectlanguageifdefined{english}
+\BibEmph{Apple}. Security White Paper - отдельное спасибо
+  корпорации Apple, за удаленный документ на
+  английском. ---
+\newblock 2010. ---
+\newblock URL:
+  \BibUrl{http://www.apple.com/jp/training/pdf/wp_osx_security_108_jp.pdf}.
+
+\bibitem{sip2016}
+\selectlanguageifdefined{english}
+\BibEmph{Esser~Stefan}. OS X El Captain Sinking the ship. ---
+\newblock 2016. ---
+\newblock URL:
+  \BibUrl{https://reverse.put.as/wp-content/uploads/2016/05/syscan360stefanesserosxelcapitansinkingtheship.pdf}.
+
+\bibitem{malware2015}
+\selectlanguageifdefined{english}
+\BibEmph{Wardle~Patrick}. Methods of Malware Persistence OS X. ---
+\newblock 2015. ---
+\newblock URL:
+  \BibUrl{https://reverse.put.as/wp-content/uploads/2015/11/shakacon_methods_of_malware_persistence.pdf}.
+
+\bibitem{codesigning}
+\selectlanguageifdefined{english}
+Code Signing. ---
+\newblock 2015. ---
+\newblock URL:
+  \BibUrl{https://reverse.put.as/wp-content/uploads/2015/12/CodeSigning-RSA.pdf}.
+
+\end{thebibliography}

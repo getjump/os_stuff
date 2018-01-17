@@ -1,0 +1,5 @@
+if $it eq 1111111111 echo $it
+if $it neq 1111111111 it={$it}1
+if $it neq 1111111111 echo $it
+if $it neq 1111111111 export it
+if $it neq 1111111111 run tests/6.psh

@@ -1,0 +1,8 @@
+kek=5
+if $kek eq 5 echo "eq valid"
+if $kek neq 2 echo "neq valid"
+if $kek lt 10 echo "lt valid"
+if $kek gt 4 echo "gt valid"
+if $USER match \S+
+vars
+if $0 match getjump echo "regex valid"
